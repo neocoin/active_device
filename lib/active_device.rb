@@ -135,4 +135,4 @@ module ActiveDevice
 
 end
 
-ActionController::Base.send(:include, ActiveDevice)
+#ActionController::Base.send(:include, ActiveDevice)

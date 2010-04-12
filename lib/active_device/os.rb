@@ -23,6 +23,7 @@ class Os
     when /windows nt 5\.1/i      ; :'Windows XP'
     when /windows nt 5\.0/i      ; :'Windows 2000'
     when /windows nt 4\.0/i      ; :Windows
+    when /iPhone/i               ; :iPhone
     when /os x (\d+)[._](\d+)/i  ; :'Mac OS'
     when /Mac/i                  ; :'Mac OS'
     when /linux/i                ; :Linux
@@ -32,7 +33,6 @@ class Os
     when /SymbianOS/i            ; :SymbianOS
     when /Symbian/i              ; :Symbian
     when /Palm/i                 ; :Palm
-    when /iPhone/i               ; :iPhone
     else                         ; :Unknown
     end
   end
