@@ -33,7 +33,7 @@ require 'active_device/os'
 module ActiveDevice
   
   def self.included(base)
-    base.before_filter :set_mobile_format
+    #base.before_filter :set_mobile_format
     base.helper_method :is_mobile_device?, :is_mobile_browser?, :is_desktop_browser?, :is_bot?
     base.helper_method :is_mobile_view?
     base.helper_method :is_device?, :is_handset?, :is_brand?, :is_model?, :is_os?, :is_engine?, :is_browser?
