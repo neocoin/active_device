@@ -30,6 +30,7 @@ class Browser
     when /Arora/i                ; :Arora
     when /Avant/i                ; :Avant
     when /Beonex/i               ; :Beonex
+    when /BlackBerry/i           ; :BlackBerry
     when /Bloglines/i            ; :Bloglines # Feed Reader
     when /BonEcho/i              ; :BonEcho
     when /Camino/i               ; :Camino
