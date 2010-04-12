@@ -189,7 +189,7 @@ class Browser
     when :PSP        ; $1 if user_agent =~ /([\d\w\.\-]+)\)?\s*$/i
       #    when :SymbianOS  ; $1 if user_agent =~ /\/([\d\w\.\-]+)/i #\)?\s*$
       #    when :Symbian    ; $1 if user_agent =~ /\ ([0-9\d\w\.\-]+)\)?\s*$/i
-      #    when :iPhone     ; $1 if user_agent =~ /([\d\w\.\-]+)\)?\s*$/i
+     when :iPhone     ; $1 if user_agent =~ /#{name.to_s} OS ([\d\w\.\-]+)\)?\s*$/i
       #when name[/safari([0-9\-\.\_]+)/i] ; $1 if name =~ /([0-9\-\.\_]+)/i
     else           $1 if user_agent =~ /#{name.to_s}[\/ ]([\d\w\.\-]+)/i
     end
